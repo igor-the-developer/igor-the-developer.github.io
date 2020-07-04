@@ -11,6 +11,35 @@
 
   gtag('config', 'UA-170668971-1');
 </script>
+    
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('57iemy9uf4gz');
+</script>
+<!-- End of Async Drift Code -->
     <!-- Site code start -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -103,6 +132,7 @@
           <h1>Esca Menu</h1>
           <h2>Better Safer Dining</h2>
           <div><a href="https://app.escamenu.com/signin" class="btn-get-started scrollto">Create My Menu</a></div>
+            <div><a href="https://escamenu.com/qr-code-reader/" class="btn-get-started scrollto">Scan QR Code</a></div>
         </div>
         <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
           <img src="assets/img/iphone.png" class="img-fluid animated" alt="">
@@ -686,12 +716,23 @@
                 </p>
               </div>
             </li>
+              
+                   <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">How to scan a QR code? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                <p>
+               You scan a QR code through your smartphone camera. If your smartphone camera is unable to recognise the code you can scan it using the below link
+                 <a href="https://escamenu.com/qr-code-reader/" class="btn-buy">Scan QR code</a>
+                </p>
+              </div>
+            </li>
 
           </ul>
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>
+        <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
@@ -715,7 +756,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>shalom.osiadi2@mail.dcu.ie</p>
+              <p>hello@escamenu.com</p>
             </div>
           </div>
 
@@ -787,7 +828,7 @@
               Whitehall, Dublin, D09 W6F4<br>
               Republic Of Ireland <br><br>
               <strong>Phone:</strong> +353 83 447 2434<br>
-              <strong>Email:</strong> shalom.osiadi2@mail.dcu.ie<br>
+              <strong>Email:</strong> hello@escamenu.com<br>
             </p>
           </div>
             <!-- OUR SERVICES -->
@@ -853,8 +894,9 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <div id="preloader"></div>
+      <!--BACK TO TOP BUTTON-->
+<!--<a href="#" class="back-to-top" style="text-align:left;"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
