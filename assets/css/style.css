@@ -25,7 +25,30 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
+/*--------------------------------------------------------------
+# Announcement Bar
+--------------------------------------------------------------*/
+.announcement {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: black;
+  color: white;
+  font-family: Arial, sans;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
 
+.announcement a {
+  color: #ccc;
+}
+
+.announcement a:hover {
+  color: red;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
