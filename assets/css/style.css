@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-start-now {
-  margin-left: 25px;
+  margin-left: 15px;
   border-radius: 5px;
   padding: 6px 25px 8px 25px;
   white-space: nowrap;
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 170px;
+  right: 150px;
   top: 15px;
   z-index: 9998;
   border: 0;
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav {
   position: fixed;
   top: 55px;
-  right: 170px;
+  right: 150px;
   bottom: 15px;
   left: 15px;
   z-index: 9999;
