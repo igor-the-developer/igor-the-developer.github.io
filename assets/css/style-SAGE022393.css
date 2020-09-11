@@ -306,6 +306,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.btn-start-now {
+  margin-left: 25px;
+  border-radius: 5px;
+  padding: 6px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: #fff;
+  /*color: #00ff00;*/
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
