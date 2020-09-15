@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   width: 100%;
   background: black;
-  color: white;
+  color: #8577fb;
   font-family: Arial, sans;
   margin: 0;
   padding-top: 15px;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .announcement a {
-  color: #ccc;
+  color: white;
 }
 
 .announcement a:hover {
