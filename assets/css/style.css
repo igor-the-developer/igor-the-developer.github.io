@@ -43,11 +43,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .announcement a {
-  color: #ccc;
+  color: #8577fb;
 }
 
 .announcement a:hover {
-  color: #8577fb;
+  color: white;
 }
 /*--------------------------------------------------------------
 # Back to top button
