@@ -1176,6 +1176,13 @@ section {
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
 
+.pricing .btn-buy:disabled,
+.pricing .btn-buy[disabled]{
+  cursor: not-allowed;
+  color: rgb(255, 255, 255);
+  background: #868686;
+}
+
 .pricing .featured h3 {
   color: #fff;
   background: #5846f9;
